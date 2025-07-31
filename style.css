@@ -24,7 +24,7 @@ body{
     justify-content:space-between;
     align-items: center;
     padding: 20px;
-    background-color: #F2A649;
+    background-color: #401832;
 }
 
 /* display */
@@ -40,7 +40,7 @@ body{
     align-items: center;
     white-space: pre-line;
     border-radius: 13px;
-    background-color: #F2F2F2;
+    background-color: #eee8e8;
 }
 
 /* buttons */
@@ -54,7 +54,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     border-radius: 13px;
-    background-color: #F2F2F2;
+    background-color: #eee8e8;
 }
 .button{
     flex-basis: 21%;
@@ -63,17 +63,17 @@ body{
     /* border: 1px solid black; */
     border: none;
     border-radius: 13px;
-    background-color: #A69292;
+    background-color: #D9BFBF;
     color: white;
 }
 .zero{
     flex-basis: 45.4%;
 }
 .function{
-    background-color: #8C4C3E;
+    background-color: #73435D;
 }
 .operator{
-    background-color: #D96704;
+    background-color: #D99197;
 }
 
 .button:hover{
