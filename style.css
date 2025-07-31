@@ -24,7 +24,7 @@ body{
     justify-content:space-between;
     align-items: center;
     padding: 20px;
-    background-color: #401832;
+    background-color: #73020C;
 }
 
 /* display */
@@ -40,7 +40,7 @@ body{
     align-items: center;
     white-space: pre-line;
     border-radius: 13px;
-    background-color: #eee8e8;
+    background-color: #F2F2F2;
 }
 
 /* buttons */
@@ -54,7 +54,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     border-radius: 13px;
-    background-color: #eee8e8;
+    background-color: #F2F2F2;
 }
 .button{
     flex-basis: 21%;
@@ -63,17 +63,17 @@ body{
     /* border: 1px solid black; */
     border: none;
     border-radius: 13px;
-    background-color: #D9BFBF;
+    background-color: #D9A796;
     color: white;
 }
 .zero{
     flex-basis: 45.4%;
 }
 .function{
-    background-color: #73435D;
+    background-color: #400106;
 }
 .operator{
-    background-color: #D99197;
+    background-color: #8C0303;
 }
 
 .button:hover{
