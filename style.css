@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     user-select: none;
+    font-weight: 600;
 }
 html, body{
     height: 100%;
@@ -43,6 +44,7 @@ body{
     white-space: pre-line;
     border-radius: 13px;
     background-color: #F2F2F2;
+    color: #400106;
 }
 
 /* buttons */
@@ -100,16 +102,7 @@ body{
     margin: 0 5px;
     background-color: #F2F2F2;
 }
-/* .cancel{
-    background-color: red;
-}
-.expand{
-    background-color: rgb(255, 196, 0);
-}
-.reduce{
-    background-color: rgb(1, 188, 1);
-} */
-
 .NaN {
     font-size: 1.5rem;
+    font-weight: 600;
 }
