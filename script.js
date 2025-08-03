@@ -73,6 +73,7 @@ function shouldResetDisplay (){
 // 이건 상태 처리용
     // number
 function handleNumber(button) {
+    if (display.classList.contains('NaN')) return
     shouldResetDisplay ()
     updateNumberOnTheDisplay (button)
 }
@@ -116,9 +117,11 @@ function handleFunction(ft){
             display.classList.remove('NaN')
             return
         case '±' :
+            if (display.classList.contains('NaN')) return
             display.textContent = parseFloat(display.textContent) * -1
             return
         case '%' :
+            if (display.classList.contains('NaN')) return
             if (!display.textContent.includes('%')){
                 display.textContent += '%'
             }
